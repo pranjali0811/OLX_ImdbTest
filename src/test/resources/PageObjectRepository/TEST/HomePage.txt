@@ -1,0 +1,4 @@
+#HomePage
+#elementName:									locatorType:				locatorvalue     
+searchBar:                                       css:                       .imdb-header-search__input
+searchIcon:                                      css:                        [type="submit"]

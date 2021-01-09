@@ -1,0 +1,11 @@
+app_url: https://www.imdb.com/
+apiBaseURL:  http://www.omdbapi.com/
+QueryParameters:
+ i: tt3896198
+ apiKey: 9b16e544
+ type: movie
+ s: lord of the rings
+ 
+ExpectedTitle1: "The Lord of the Rings: The Fellowship of the Ring"
+ExpectedTitle2: "The Lord of the Rings: The Two Towers"
+ExpectedTitle3: "The Lord of the Rings: The Return of the King"

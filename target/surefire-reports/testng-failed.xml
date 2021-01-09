@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Assignment OLXImdb]">
+  <test name="Movie Result Comparison" group-by-instances="true">
+    <classes>
+      <class name="test.testsclasses.ImdbTest"/>
+    </classes>
+  </test> <!-- Movie Result Comparison -->
+  <test name="Movie Result Comparison(failed)">
+    <classes>
+      <class name="test.testsclasses.ImdbTest">
+        <methods>
+          <include name="stop_test_session"/>
+          <include name="start_test_Session"/>
+          <include name="launchApp"/>
+          <include name="onFailure"/>
+          <include name="getResponseFromImdbService"/>
+          <include name="handleTestMethodName"/>
+          <include name="validateTheSearchedResults"/>
+          <include name="searchTheDesiredInput"/>
+          <include name="getTheSearchedResults"/>
+        </methods>
+      </class> <!-- test.testsclasses.ImdbTest -->
+    </classes>
+  </test> <!-- Movie Result Comparison(failed) -->
+</suite> <!-- Failed suite [Assignment OLXImdb] -->

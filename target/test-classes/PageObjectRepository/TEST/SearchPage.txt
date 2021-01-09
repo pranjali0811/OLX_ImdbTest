@@ -1,0 +1,4 @@
+#WeatherPage
+#elementName:									locatorType:				locatorvalue  
+categorySearchOptions:                           xpath:                     //h3[contains(text(), 'Category Search')]//following-sibling::ul//ul//li//a[contains(text(), '${optionName}')]
+searchResult:                                    xpath:                     //table//tbody//tr//td[2]//a

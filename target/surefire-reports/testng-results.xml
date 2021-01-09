@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- IMDBTEST : GETRESPONSEFROMIMDBSERVICE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: getResponseFromImdbService]]>
+    </line>
+    <line>
+      <![CDATA[Test time in secs: 1]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- PASS]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- IMDBTEST : LAUNCHAPP *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Application url is :- https://www.imdb.com/]]>
+    </line>
+    <line>
+      <![CDATA[Test browser is :- chrome]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Page loaded completely]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: launchApp]]>
+    </line>
+    <line>
+      <![CDATA[Test time in secs: 10]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- PASS]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- IMDBTEST : SEARCHTHEDESIREDINPUT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered the value in search bar:: lord of the rings]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User clicked on the search icon.]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: searchTheDesiredInput]]>
+    </line>
+    <line>
+      <![CDATA[Test time in secs: 5]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- PASS]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- IMDBTEST : GETTHESEARCHEDRESULTS *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User clicked on the section: Movie under the Category Search box.]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: getTheSearchedResults]]>
+    </line>
+    <line>
+      <![CDATA[Test time in secs: 0]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- PASS]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- IMDBTEST : VALIDATETHESEARCHEDRESULTS *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Name: validateTheSearchedResults]]>
+    </line>
+    <line>
+      <![CDATA[Test time in secs: 0]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- FAIL]]>
+    </line>
+    <line>
+      <![CDATA[Test status :- FAIL]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+  </reporter-output>
+  <suite name="Assignment OLXImdb" duration-ms="27159" started-at="2021-01-09T14:22:00Z" finished-at="2021-01-09T14:22:27Z">
+    <groups>
+    </groups>
+    <test name="Movie Result Comparison" duration-ms="27159" started-at="2021-01-09T14:22:00Z" finished-at="2021-01-09T14:22:27Z">
+      <class name="test.testsclasses.ImdbTest">
+        <test-method status="PASS" signature="start_test_Session()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="start_test_Session" is-config="true" duration-ms="8242" started-at="2021-01-09T19:52:00Z" finished-at="2021-01-09T19:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_test_Session -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2021-01-09T19:52:09Z" finished-at="2021-01-09T19:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void test.testsclasses.ImdbTest.getResponseFromImdbService() throws org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- IMDBTEST : GETRESPONSEFROMIMDBSERVICE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="getResponseFromImdbService()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="getResponseFromImdbService" duration-ms="1913" started-at="2021-01-09T19:52:09Z" finished-at="2021-01-09T19:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseFromImdbService -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="onFailure" is-config="true" duration-ms="2" started-at="2021-01-09T19:52:11Z" finished-at="2021-01-09T19:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResponseFromImdbService status=SUCCESS method=ImdbTest.getResponseFromImdbService()[pri:0, instance:test.testsclasses.ImdbTest@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Name: getResponseFromImdbService]]>
+            </line>
+            <line>
+              <![CDATA[Test time in secs: 1]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- PASS]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onFailure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:11Z" finished-at="2021-01-09T19:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void test.testsclasses.ImdbTest.launchApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- IMDBTEST : LAUNCHAPP *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="launchApp" duration-ms="10269" started-at="2021-01-09T19:52:11Z" depends-on-methods="test.testsclasses.ImdbTest.getResponseFromImdbService" finished-at="2021-01-09T19:52:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application url is :- https://www.imdb.com/]]>
+            </line>
+            <line>
+              <![CDATA[Test browser is :- chrome]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Page loaded completely]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="onFailure" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:21Z" finished-at="2021-01-09T19:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchApp status=SUCCESS method=ImdbTest.launchApp()[pri:0, instance:test.testsclasses.ImdbTest@694e1548] output=Application url is :- https://www.imdb.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Name: launchApp]]>
+            </line>
+            <line>
+              <![CDATA[Test time in secs: 10]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- PASS]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onFailure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2021-01-09T19:52:21Z" finished-at="2021-01-09T19:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void test.testsclasses.ImdbTest.searchTheDesiredInput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- IMDBTEST : SEARCHTHEDESIREDINPUT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="searchTheDesiredInput()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="searchTheDesiredInput" duration-ms="5128" started-at="2021-01-09T19:52:21Z" depends-on-methods="test.testsclasses.ImdbTest.launchApp" finished-at="2021-01-09T19:52:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO]: User entered the value in search bar:: lord of the rings]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User clicked on the search icon.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTheDesiredInput -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="onFailure" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTheDesiredInput status=SUCCESS method=ImdbTest.searchTheDesiredInput()[pri:0, instance:test.testsclasses.ImdbTest@694e1548] output=[INFO]: User entered the value in search bar:: lord of the rings]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Name: searchTheDesiredInput]]>
+            </line>
+            <line>
+              <![CDATA[Test time in secs: 5]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- PASS]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onFailure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void test.testsclasses.ImdbTest.getTheSearchedResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- IMDBTEST : GETTHESEARCHEDRESULTS *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="getTheSearchedResults()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="getTheSearchedResults" duration-ms="90" started-at="2021-01-09T19:52:26Z" depends-on-methods="test.testsclasses.ImdbTest.searchTheDesiredInput" finished-at="2021-01-09T19:52:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO]: User clicked on the section: Movie under the Category Search box.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTheSearchedResults -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="onFailure" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTheSearchedResults status=SUCCESS method=ImdbTest.getTheSearchedResults()[pri:0, instance:test.testsclasses.ImdbTest@694e1548] output=[INFO]: User clicked on the section: Movie under the Category Search box.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Name: getTheSearchedResults]]>
+            </line>
+            <line>
+              <![CDATA[Test time in secs: 0]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- PASS]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onFailure -->
+        <test-method status="FAIL" signature="validateTheSearchedResults()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="validateTheSearchedResults" duration-ms="225" started-at="2021-01-09T19:52:26Z" depends-on-methods="test.testsclasses.ImdbTest.getTheSearchedResults" finished-at="2021-01-09T19:52:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Displaying results table doesn't contains movie titles from filtered response  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Displaying results table doesn't contains movie titles from filtered response  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.testsclasses.ImdbTest.validateTheSearchedResults(ImdbTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheSearchedResults -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void test.testsclasses.ImdbTest.validateTheSearchedResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- IMDBTEST : VALIDATETHESEARCHEDRESULTS *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="stop_test_session()[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="stop_test_session" is-config="true" duration-ms="1262" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop_test_session -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult)[pri:0, instance:test.testsclasses.ImdbTest@694e1548]" name="onFailure" is-config="true" duration-ms="0" started-at="2021-01-09T19:52:26Z" finished-at="2021-01-09T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTheSearchedResults status=FAILURE method=ImdbTest.validateTheSearchedResults()[pri:0, instance:test.testsclasses.ImdbTest@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Name: validateTheSearchedResults]]>
+            </line>
+            <line>
+              <![CDATA[Test time in secs: 0]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- FAIL]]>
+            </line>
+            <line>
+              <![CDATA[Test status :- FAIL]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onFailure -->
+      </class> <!-- test.testsclasses.ImdbTest -->
+    </test> <!-- Movie Result Comparison -->
+  </suite> <!-- Assignment OLXImdb -->
+</testng-results>

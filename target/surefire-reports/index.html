@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Assignment_OLXImdb">
+              <span class="suite-name border-failed">Assignment OLXImdb</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Assignment_OLXImdb">
+                    <span>C:\Users\pranjalijaiswal\Downloads\OLXTest\src\test\resources\testngxmls\TestNG_Assignment.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Assignment_OLXImdb">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Assignment_OLXImdb">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Assignment_OLXImdb">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Assignment_OLXImdb">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Assignment_OLXImdb">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Assignment_OLXImdb">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Assignment_OLXImdb" class="hide-methods failed suite-Assignment_OLXImdb"> (hide)</a> <!-- hide-methods failed suite-Assignment_OLXImdb -->
+                      <a href="#" panel-name="suite-Assignment_OLXImdb" class="show-methods failed suite-Assignment_OLXImdb"> (show)</a> <!-- show-methods failed suite-Assignment_OLXImdb -->
+                    </span>
+                    <div class="method-list-content failed suite-Assignment_OLXImdb">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_OLXImdb" title="test.testsclasses.ImdbTest" hash-for-method="validateTheSearchedResults">validateTheSearchedResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Assignment_OLXImdb -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Assignment_OLXImdb" class="hide-methods passed suite-Assignment_OLXImdb"> (hide)</a> <!-- hide-methods passed suite-Assignment_OLXImdb -->
+                      <a href="#" panel-name="suite-Assignment_OLXImdb" class="show-methods passed suite-Assignment_OLXImdb"> (show)</a> <!-- show-methods passed suite-Assignment_OLXImdb -->
+                    </span>
+                    <div class="method-list-content passed suite-Assignment_OLXImdb">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_OLXImdb" title="test.testsclasses.ImdbTest" hash-for-method="getResponseFromImdbService">getResponseFromImdbService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_OLXImdb" title="test.testsclasses.ImdbTest" hash-for-method="getTheSearchedResults">getTheSearchedResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_OLXImdb" title="test.testsclasses.ImdbTest" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_OLXImdb" title="test.testsclasses.ImdbTest" hash-for-method="searchTheDesiredInput">searchTheDesiredInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Assignment_OLXImdb -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Assignment_OLXImdb" class="panel Assignment_OLXImdb">
+          <div class="suite-Assignment_OLXImdb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testsclasses.ImdbTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTheSearchedResults">
+                  </a> <!-- validateTheSearchedResults -->
+                  <span class="method-name">validateTheSearchedResults</span>
+                  <div class="stack-trace">java.lang.AssertionError: Displaying results table doesn&apos;t contains movie titles from filtered response  expected [true] but found [false]
+	at test.testsclasses.ImdbTest.validateTheSearchedResults(ImdbTest.java:63)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_OLXImdb-class-failed -->
+          <div class="suite-Assignment_OLXImdb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testsclasses.ImdbTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseFromImdbService">
+                  </a> <!-- getResponseFromImdbService -->
+                  <span class="method-name">getResponseFromImdbService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTheSearchedResults">
+                  </a> <!-- getTheSearchedResults -->
+                  <span class="method-name">getTheSearchedResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTheDesiredInput">
+                  </a> <!-- searchTheDesiredInput -->
+                  <span class="method-name">searchTheDesiredInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_OLXImdb-class-passed -->
+        </div> <!-- panel Assignment_OLXImdb -->
+        <div panel-name="test-xml-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pranjalijaiswal\Downloads\OLXTest\src\test\resources\testngxmls\TestNG_Assignment.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Assignment OLXImdb&quot;&gt;
+  &lt;test name=&quot;Movie Result Comparison&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.testsclasses.ImdbTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Movie Result Comparison --&gt;
+  &lt;test name=&quot;Movie Result Comparison(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.testsclasses.ImdbTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;stop_test_session&quot;/&gt;
+          &lt;include name=&quot;start_test_Session&quot;/&gt;
+          &lt;include name=&quot;launchApp&quot;/&gt;
+          &lt;include name=&quot;onFailure&quot;/&gt;
+          &lt;include name=&quot;getResponseFromImdbService&quot;/&gt;
+          &lt;include name=&quot;handleTestMethodName&quot;/&gt;
+          &lt;include name=&quot;validateTheSearchedResults&quot;/&gt;
+          &lt;include name=&quot;searchTheDesiredInput&quot;/&gt;
+          &lt;include name=&quot;getTheSearchedResults&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.testsclasses.ImdbTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Movie Result Comparison(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Assignment OLXImdb --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Assignment OLXImdb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Movie Result Comparison (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Movie Result Comparison(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Assignment OLXImdb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Assignment OLXImdb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Assignment_OLXImdb');
+function tableData_Assignment_OLXImdb() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchApp')
+data.setCell(0, 2, 'test.testsclasses.ImdbTest')
+data.setCell(0, 3, 10269);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchTheDesiredInput')
+data.setCell(1, 2, 'test.testsclasses.ImdbTest')
+data.setCell(1, 3, 5128);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getResponseFromImdbService')
+data.setCell(2, 2, 'test.testsclasses.ImdbTest')
+data.setCell(2, 3, 1913);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateTheSearchedResults')
+data.setCell(3, 2, 'test.testsclasses.ImdbTest')
+data.setCell(3, 3, 225);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getTheSearchedResults')
+data.setCell(4, 2, 'test.testsclasses.ImdbTest')
+data.setCell(4, 3, 90);
+window.suiteTableData['Assignment_OLXImdb']= { tableData: data, tableDiv: 'times-div-Assignment_OLXImdb'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Assignment_OLXImdb">
+              </div> <!-- times-div-Assignment_OLXImdb -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Assignment OLXImdb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchTheDesiredInput</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO]: User entered the value in search bar:: lord of the rings</span>
+                <span class="reporter-method-output">[INFO]: User clicked on the search icon.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getTheSearchedResults</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO]: User clicked on the section: Movie under the Category Search box.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application url is :- https://www.imdb.com/</span>
+                <span class="reporter-method-output">Test browser is :- chrome</span>
+                <span class="reporter-method-output">[INFO]: Page loaded completely</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Assignment_OLXImdb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testsclasses.ImdbTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">start_test_Session</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(private void test.testsclasses.ImdbTest.getResponseFromImdbService() throws org.json.simple.parser.P...)</span>
+                <span class="method-start">8245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getResponseFromImdbService</span>
+                <span class="method-start">8246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">onFailure([TestResult name=getResponseFromImdbService status=SUCCESS method=ImdbTest.getResponseFromImdbServic...)</span>
+                <span class="method-start">10159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(private void test.testsclasses.ImdbTest.launchApp())</span>
+                <span class="method-start">10161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">10161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">onFailure([TestResult name=launchApp status=SUCCESS method=ImdbTest.launchApp()[pri:0, instance:test.testsclas...)</span>
+                <span class="method-start">20430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(private void test.testsclasses.ImdbTest.searchTheDesiredInput())</span>
+                <span class="method-start">20431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchTheDesiredInput</span>
+                <span class="method-start">20432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">onFailure([TestResult name=searchTheDesiredInput status=SUCCESS method=ImdbTest.searchTheDesiredInput()[pri:0,...)</span>
+                <span class="method-start">25560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getTheSearchedResults</span>
+                <span class="method-start">25561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(private void test.testsclasses.ImdbTest.getTheSearchedResults())</span>
+                <span class="method-start">25561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">onFailure([TestResult name=getTheSearchedResults status=SUCCESS method=ImdbTest.getTheSearchedResults()[pri:0,...)</span>
+                <span class="method-start">25652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(private void test.testsclasses.ImdbTest.validateTheSearchedResults())</span>
+                <span class="method-start">25653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateTheSearchedResults</span>
+                <span class="method-start">25653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">onFailure([TestResult name=validateTheSearchedResults status=FAILURE method=ImdbTest.validateTheSearchedResult...)</span>
+                <span class="method-start">25884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">stop_test_session</span>
+                <span class="method-start">25884 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
