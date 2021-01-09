@@ -16,9 +16,9 @@ Assignment For OLX- Imdb Test
  mvn clean verify -Dbrowser="Browser Name, for eg:chrome" -Dtier="Tier Name, for eg: Test" -DtestXml="Test Suite, for eg:TestNG_Assignment.xml"
     
 #### Project Structure:
-- Page Classses: src\test\java\test\actions
-- API Classes: src\test\java\test\actions\RestAPIActions
-- Locators: src\test\resources\PageObjectRepository\{tier}
+- Page Classses: src/test/java/test/actions
+- API Classes: src/test/java/test/actions/RestAPIActions
+- Locators: src/test/resources/PageObjectRepository/ {tier}
 - Test Classes: src/test/java/test/testsclasses
 
 #### Result Files:	
